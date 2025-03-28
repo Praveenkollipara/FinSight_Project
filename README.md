@@ -1,5 +1,7 @@
 # FinSight_Project
 
+### Dashboard Link : 
+    https://app.powerbi.com/groups/me/reports/fcbbfdf4-eb12-4ec4-ae36-8edd1d665820/438c48458ac026a67532?experience=power-bi
 
 ## Table of Contents
 - [Project Overview](#project-overview)
