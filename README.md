@@ -19,5 +19,5 @@
 - **Market Data Table**: Pulls live prices using APIs like Alpha Vantage.
 - **Assets Covered**: Stocks, Crypto, Mutual Funds, Commodities.
 - **Fields**:  
-  - `asset_symbol`, `asset_type`, `buy_price`, `quantity`, `purchase_date`  
-  - `current_price`, `timestamp`
+  - asset_symbol, asset_type, buy_price, quantity, purchase_date  
+  - current_price, timestamp
