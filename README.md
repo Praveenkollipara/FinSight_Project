@@ -21,3 +21,26 @@
 - **Fields**:  
   - asset_symbol, asset_type, buy_price, quantity, purchase_date  
   - current_price, timestamp
+
+## Technologies Used
+
+| Layer | Technology |
+|-------|------------|
+| Dashboard | Power BI |
+| Scripting | Python (Requests, pyodbc) |
+| Database | SQL Server |
+| Calculations | DAX, Power Query |
+| API Source | Alpha Vantage |
+
+---
+## Data Cleaning & Feature Engineering
+
+- Removed unmatched or null asset entries
+- Created derived metrics:
+  - **Total Investment** = Quantity × Buy Price
+  - **Current Value** = Quantity × Current Price
+  - **Profit/Loss** = Current Value − Total Investment
+- Joined portfolio with live market data via asset_symbol
+- Filtered records by purchase date for time-based analysis
+
+---
