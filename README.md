@@ -5,13 +5,15 @@
 - [Project Overview](#project-overview)
 - [Dataset Overview](#dataset-overview)
 - [Technologies Used](#technologies-used)
-- [Data Cleaning and Feature Engineering](#data-cleaning-and-feature-engineering)
-- [Exploratory Data Analysis and Visualization](#exploratory-data-analysis-and-visualization)
+- [Data Cleaning & Feature Engineering](#data-cleaning-and-feature-engineering)
+- [Exploratory Data Analysis and Visualization](#exploratory-data-analysis)
 - [Conclusion](#conclusion)
+
 
 ## Project Overview
 
 **FinSight** is a real-time financial portfolio analytics dashboard designed for investors and analysts to gain instant insights into asset performance. Built using Power BI, Python, and SQL Server, the system pulls and processes live market data, calculates investment returns, and visualizes profit/loss by asset class.
+
 
 ## Dataset Overview
 
@@ -21,6 +23,7 @@
 - **Fields**:  
   - asset_symbol, asset_type, buy_price, quantity, purchase_date  
   - current_price, timestamp
+
 
 ## Technologies Used
 
@@ -32,8 +35,8 @@
 | Calculations | DAX, Power Query |
 | API Source | Alpha Vantage |
 
----
-## Data Cleaning & Feature Engineering
+
+## Data Cleaning and Feature Engineering
 
 - Removed unmatched or null asset entries
 - Created derived metrics:
@@ -43,4 +46,19 @@
 - Joined portfolio with live market data via asset_symbol
 - Filtered records by purchase date for time-based analysis
 
----
+## Exploratory Data Analysis
+
+### Visual Insights:
+- **KPI Cards**: Total Investment, Current Value, Net Profit/Loss
+- **Bar Chart**: Profit/Loss by Asset Symbol
+- **Pie Chart**: Asset Allocation by Type
+- **Table**: Asset-wise Performance with Conditional Formatting
+- **Slicers**: Asset Type, Date Range Filters
+
+
+## Conclusion
+
+FinSight is a complete end-to-end portfolio analytics tool that blends **real-time data**, **SQL-backed architecture**, and **interactive dashboards** in Power BI. This project reflects strong skills in:
+- Data engineering (ETL)
+- Financial analytics
+- Dashboard storytelling
